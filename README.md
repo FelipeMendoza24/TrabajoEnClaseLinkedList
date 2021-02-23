@@ -1,5 +1,6 @@
 # TrabajoEnClaseLinkedList
-Procedí a cambiar todos los Arraylist por LinkedList, ya que a traves de mi investigación, me di cuenta que estos funcionaban de manera muy parecida 
-y además tenian metodos casi iguales.
-Tuve que cambiar algunas cosas, pero son solo de organización.
-Todos los test pasan.
+Creé una clase llamada CourseLinkedList y ahi realice los cambios pertinentes para lograr que pasaran los tests, tambien cambie toda la clase CourseArrayList y la puse como un comentario.
+Las clases de Transcript y TranscripEntry no las habiamos visto en clase, pero aun asi las cambie por linkedList.
+Las clases que ya teniamos tambien tuvieron los cambios respectivos a LinkedList.
+El test shouldAddAStudent pasó bien con CourseLinkedList al igual que shouldNotAddAStudent, shouldNotAddAStudentWhenNoQuota, shouldRemoveAStudent, shouldNotRemoveAStudent, shouldGetAStudent, shouldNotGetAStudent, shouldNotUpdateAStudent.
+
