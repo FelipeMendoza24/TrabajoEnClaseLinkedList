@@ -1,16 +1,16 @@
 package entities;
 
-import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
 public class Transcript {
 
     public static final int MIN_APPROVED_GRADE = 3;
-    private List<TranscriptEntry> entries;
+    private LinkedList<TranscriptEntry> entries;
 
     public Transcript() {
-        this.entries = new ArrayList<>();
+        this.entries = new LinkedList<>();
     }
 
     public boolean addTranscriptEntry(Course courseTaken, int grade) {

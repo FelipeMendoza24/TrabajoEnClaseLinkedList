@@ -18,8 +18,8 @@ public class Course {
 
     private int id;
     private String name;
-    private List<Student> students;
-    private List<Course> prerequisites;
+    private LinkedList<Student> students;
+    private LinkedList<Course> prerequisites;
 
 
 
@@ -29,7 +29,7 @@ public class Course {
     public Course(int id, String name) {
         this.id = id;
         this.name = name;
-        this.students = new ArrayList<>();
+        this.students = new LinkedList<>();
         this.studentSet = new HashSet<>();
     }
 
