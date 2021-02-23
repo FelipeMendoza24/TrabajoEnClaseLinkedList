@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CourseCollectionsTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2021-02-23T00:43:13" hostname="DESKTOP-MI4B94L" time="0.044">
+  <properties/>
+  <testcase name="shouldNotRemoveAStudent()" classname="CourseCollectionsTest" time="0.024"/>
+  <testcase name="shouldRemoveAStudent()" classname="CourseCollectionsTest" time="0.001"/>
+  <testcase name="shouldNotGetAStudent()" classname="CourseCollectionsTest" time="0.002"/>
+  <testcase name="shouldGetAStudent()" classname="CourseCollectionsTest" time="0.003"/>
+  <testcase name="shouldNotAddAStudentWhenNoQuota()" classname="CourseCollectionsTest" time="0.005"/>
+  <testcase name="shouldNotAddAStudent()" classname="CourseCollectionsTest" time="0.0"/>
+  <testcase name="shouldAddAStudent()" classname="CourseCollectionsTest" time="0.001"/>
+  <testcase name="shouldNotUpdateAStudent()" classname="CourseCollectionsTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
